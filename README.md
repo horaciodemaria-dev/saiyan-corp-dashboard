@@ -4,6 +4,8 @@ An interactive workforce analytics dashboard: 15 filters on the left, KPI cards 
 
 **Stack:** Next.js 14 (App Router, route handlers) · React 18 · TypeScript · Tailwind CSS 3 · Recharts · lucide-react
 
+**Live demo:** <https://saiyan-corp-dashboard.vercel.app/>
+
 > **Note:** this is a personal side project. At the start of 2026 I joined a cross-functional SDLC team that shared work with data science and backend, where data was turned into dashboards. I built this, like [nebula-hr-analytics](https://github.com/horaciodemaria-dev/nebula-hr-analytics), to practice the data and backend side (how data is generated, filtered and aggregated behind an API), with AI assistance, and to finish on the part I do professionally: the frontend that makes that data visible. It is not actively maintained.
 
 > **All data is fictional.** Employee names are deliberately taken from Dragon Ball and Marvel characters so it is obvious the data is made up. No real people, companies or HR systems are involved, and nothing here comes from any employer or client.
