@@ -8,9 +8,7 @@ An interactive workforce analytics dashboard: 15 filters on the left, KPI cards 
 
 > **All data is fictional.** Employee names are deliberately taken from Dragon Ball and Marvel characters so it is obvious the data is made up. No real people, companies or HR systems are involved, and nothing here comes from any employer or client.
 
-<!-- Screenshot: add docs/dashboard.png and uncomment the next line
 ![SaiyanCorp dashboard](docs/dashboard.png)
--->
 
 ## What it does
 
@@ -92,7 +90,7 @@ src/
 
 - Data is generated in memory on every request; there is no database or caching.
 - The dataset is fixed (1,000 employees, seed 42) and cannot be changed from the UI.
-- The page header says "real-time", but the data is static sample data.
+- The header says "real-time" and shows a "LIVE" badge, but the data is static sample data.
 - Numeric filters are not validated, so a non-numeric value returns no results.
 - The dashboard is a single large component and could be split into smaller ones.
 - Designed for desktop screens; it has not been tuned for mobile.
